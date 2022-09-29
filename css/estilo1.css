@@ -1,0 +1,107 @@
+.cuadro{
+    padding: -20px 40px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    min-height: 70vh;
+}
+.container{
+    max-width: 890px;
+    margin: 0 auto;
+}
+.form.info{
+    margin: 40px 0;
+}
+.info{
+    box-sizing: border-box;
+    padding: 3em 3.5em;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.input.group{
+    margin-bottom: 25px;
+    padding: 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.info h2{
+    display: inline-block;
+    font-size: 23px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #333;
+}
+input[type="text"], input[type="password"]{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    padding: 14px 15px 12px 35px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: 20px;
+    background: transparent;
+    letter-spacing: .5px;
+    border-bottom: 1px solid black;
+}
+html{
+    background: #bdbddb;
+}
+.btn{
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn:active {
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3ccfcf;
+    margin-top: 30px;
+    outline: none;
+    width: 100%;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+    text-transform: capitalize;
+}
+.btn-primary:hover {
+    background-color: #3d83a4;
+    color: #fff;
+}
+h2{
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 1em 0em .5em 0em;
+}
+h1{
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400 bold;
+    margin: 1em 0em .5em 0em;
+    font-size: 40px;
+}

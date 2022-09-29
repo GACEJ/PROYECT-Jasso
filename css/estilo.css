@@ -1,0 +1,107 @@
+/* Diseño de las listas */
+html, body, h1, h2, form, label, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    background: #bdbdbd;
+    font-family: 'Raleway', sans-serif;
+    /* background: linear-gradient(#4f831b, #3f87a6); */
+}
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 75%;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.2);
+}
+thead{
+    background-color: #008989;
+    color: white;
+}
+th, td{
+    padding: 15px;
+}
+th{
+    border: 1px solid #ddd;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+}
+td{
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+.btn-block{
+    background: #00b4b4;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+h2{
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 1em 0em .5em 0em;
+}
+h2, h1{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Relaway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.listas{
+    display: inline-block;
+    text-align: center;
+}
+.cuadro{
+    padding: 40px 40px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    min-height: 75vh;
+}
+.container{
+    max-width: 890px;
+    margin: 0 auto;
+}
+.info{
+    box-sizing: border-box;
+    padding: 3em 3.5em;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.btn-primary:hover {
+    background-color: #3d83a4;
+    color: #fff;
+}
+#form-cita input, select{
+    width: 300px;
+    height: 25px;
+    font-family: 'Relaway', sans-serif;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#btn{
+    width: 150px;
+}
+#logout{
+    float: right;
+    text-decoration: none;
+}
+#btn1{
+    width: 150px;
+}
